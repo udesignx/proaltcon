@@ -12,3 +12,6 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.slider .indicators .indicator-item.active{
+background-color: #212121;
+}
