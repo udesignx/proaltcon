@@ -11,51 +11,34 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo"><img src="img/vinho-x128.png" style="margin-top: -30px;"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+<nav class="grey lighten-4 ">
+   <div class="nav-wrapper">
+		 <a href="index.html" class="brand-logo"><img class="responsive-img "src="img/NAVBARLOGO.png"></a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse grey-text text-darken-3"><i class="material-icons">menu</i></a>
+     <ul class="right hide-on-med-and-down">
+       <li><a class="flow-text grey-text text-darken-3" href="index.html">Início</a></li>
+       <li><a class="flow-text grey-text text-darken-3" href="index.html#servicos">Serviços</a></li>
+       <li><a class="flow-text grey-text text-darken-3" href="contato-proaltcon.html">Contato</a></li>
+       <li><a class="flow-text grey-text text-darken-3" href="contato-proaltcon.html">(19) 3276-7434</a></li>
+     </ul>
+     <ul class="side-nav" id="mobile-demo">
+       <li><a href="index.html">Início</a></li>
+       <li><a href="#servicos">Serviços</a></li>
+       <li><a href="contato-proaltcon.html">Contato</a></li>
+       <li><a href="contato-proaltcon.html">(19) 3276-7434</a></li>
+     </ul>
     </div>
   </nav>
-  
-
-  <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="https://lorempixel.com/580/250/business/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/business/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/business/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-
+	<div class="col s12 m12 l12">
+	<img src="img/CONTATO.png" class="responsive-img">
+	</div>	
   <div class="container">
       <div class="row">
-        <form class="col s12">
+        <form class="col s12" action="#">
           <div class="row">
+						<h3 class="header center-align">Contato</h3>
+						<h6 class="header center-align">Por gentileza, preencha o formulário abaixo e receba nosso contato, o mais breve possível.</h6>
             <div class="input-field col s6">
             <i class="material-icons prefix">person</i>
               <input id="first_name" type="text" class="validate">
@@ -77,6 +60,36 @@
             </div>
           </div>
 
+					<div class="row">
+						<h6 class="header center-align">Em qual assunto podemos lhe ajudar ?</h6>
+            <div class="col m6 l6 s12">
+						<p>
+						<input type="checkbox" class="filled-in" id="contabil"   />
+						<label for="contabil">Área Contábil</label>
+						</p>
+						<p>
+						<input type="checkbox" class="filled-in" id="empresarial"   />
+						<label for="empresarial">Área Empresarial</label>
+						</p>
+						<p>
+						<input type="checkbox" class="filled-in" id="fiscal"   />
+						<label for="fiscal">Área Fiscal</label>
+						</p>
+						</div>
+            <div class="col m6 l6 s12">
+						<p>
+						<input type="checkbox" class="filled-in" id="juridica"   />
+						<label for="juridica">Área Jurídica</label>
+						</p>
+						<p>
+						<input type="checkbox" class="filled-in" id="ir"   />
+						<label for="ir">Imposto de Renda	e Previdência</label>
+						</p>
+						
+             </div>
+          </div>
+
+
           <div class="row">
           <div class="input-field col s12">
           <i class="material-icons prefix">sms</i>
@@ -85,34 +98,34 @@
           </div>
         </div>
             <div class="row center">
-              <button class="btn waves-effect waves-light" type="submit" name="action">Enviar mensagem
-                <i class="material-icons right">send</i>
-              </button>
+          <a class="waves-effect waves-light btn-large red darken-3"><i class="material-icons right">keyboard_arrow_right</i>Quero receber Orçamento</a>
             </div>
 
         </form>
       </div>
   </div>
-
-  <footer class="page-footer orange">
-    <div class="container">
+<footer class="page-footer grey darken-3">
+				<div class="container">
       <div class="row">
         <div class="col l4 s12">
           <h5 class="white-text">Proaltcon</h5>
-          <p class="grey-text text-lighten-4">Uma empresa especializada em serviços de contabilidade e assessoria empresarial, oferecendo soluções objetivas para o segmento corporativo visando melhorias nos controles e análise de desempenho.</p>
-
-
+          <p class="">Uma empresa especializada em serviços de contabilidade e assessoria empresarial, oferecendo soluções objetivas para o segmento corporativo visando melhorias nos controles e análise de desempenho.</p>
         </div>
-        <div class="col l5 s12">
-          <h5 class="white-text">Adalto de Oliveira Santos</h5>
-          <ul>
-            <li><a class="white-text">Contador formado pela PUC-Campinas atua no setor desde 2002</a></li>
-            <li><a class="white-text">Pós Graduado em Contabilidade, Auditoria e Controladoria pela PUC-Campinas</a></li>
-            <li><a class="white-text">Diretor do Sindicato dos Contabilistas de Campinas</a></li>
-            <li><a class="white-text">Membro do Conselho de Clientes do FGTS</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
+						<!-- Simbologia -->
+						<div class="col l5 s12">
+							<div class="col l12 m12 m12 center-align">
+								<i class="material-icons tiny ">brightness_1</i>
+							</div>
+							<div class="col l12 m12 s12"></div>
+							<div class="col l6 s6 m6 right-align">
+								<i class="material-icons tiny">brightness_1</i>
+							</div>
+							<div class="col l6 s6 m6 left-align">
+								<i class="material-icons tiny">brightness_1</i>
+							</div>
+						</div>
+
+        <div class="col l3 s12 right">
           <h5 class="white-text">Contatos</h5>
           <ul>
             <li>
@@ -133,13 +146,14 @@
           </ul>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Feito pela <a class="orange-text text-lighten-3" href="http://www.udesignx.com">UDesignX</a>
       </div>
+    <div class="footer-copyright">
+			<div class="container">
+      Feito pela <a class="white-text" href="http://www.udesignx.com">UDesignX</a>
+			</div>
     </div>
   </footer>
+
 
 
   <!--  Scripts-->

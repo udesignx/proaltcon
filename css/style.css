@@ -1,17 +1,27 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-.icon-block {
-  padding: 0 15px;
+.bg-sobre{
+	background-color: #e0d4ca;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+.bg-servicos{
+	background-color: #dcc3b1;
 }
-.slider .indicators .indicator-item.active{
-background-color: #212121;
+.bg-links{
+	background-color: #a99287;
+}
+.bg-footer{
+	background-color: #77695f;
+}
+.header{
+	font-weight: 300;
+}
+.nibo{
+	max-width:	42px;
+	position: absolute;
+	left: 15px;
+}
+.sobre-size{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.texto-vermelho{
+color: #742f37;
 }
